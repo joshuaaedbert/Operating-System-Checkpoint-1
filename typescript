@@ -1,0 +1,592 @@
+Script started on 2021-01-02 21:24:04+08:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="103" LINES="58"]
+]0;~/checkpoint 1
+[32mUSER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[0m
+$ make clean
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym
+rm: cannot remove '*.ihx': No such file or directory
+rm: cannot remove '*.lnk': No such file or directory
+make: *** [Makefile:25: clean] Error 1
+]0;~/checkpoint 1
+[32mUSER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[0m
+$ make
+sdcc -c  testcoop.c
+[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[12;1H[?25h[?25ltestcoop.c:53: [?25h[?25lwarning 158: overflow in implicit constant conversion
+[?25h[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[13;1H[?25h[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[13;1H[?25h[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[13;1H[?25hsdcc -c  cooperative.c
+[?25lcooperative.c:172: [?25h[?25lwarning 85: in function ThreadCreate unreferenced function argument : 'fp'
+[?25h[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+sdcc -c  cooperative.c[81X[81C
+cooperative.c:172: warning 85: in function ThreadCreate unreferenced function argument : 'fp'[10X[10C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[15;1H[?25h[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+sdcc -c  cooperative.c[81X[81C
+cooperative.c:172: warning 85: in function ThreadCreate unreferenced function argument : 'fp'[10X[10C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[15;1H[?25h[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+sdcc -c  cooperative.c[81X[81C
+cooperative.c:172: warning 85: in function ThreadCreate unreferenced function argument : 'fp'[10X[10C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[15;1H[?25hsdcc  -o testcoop.hex testcoop.rel cooperative.rel
+[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+sdcc -c  cooperative.c[81X[81C
+cooperative.c:172: warning 85: in function ThreadCreate unreferenced function argument : 'fp'[10X[10C
+sdcc  -o testcoop.hex testcoop.rel cooperative.rel[53X[53C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[16;1H[?25h[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+sdcc -c  cooperative.c[81X[81C
+cooperative.c:172: warning 85: in function ThreadCreate unreferenced function argument : 'fp'[10X[10C
+sdcc  -o testcoop.hex testcoop.rel cooperative.rel[53X[53C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[16;1H[?25h[?25l[H[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make clean[91X[91C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[47X[47C
+rm: cannot remove '*.ihx': No such file or directory[51X[51C
+rm: cannot remove '*.lnk': No such file or directory[51X[51C
+make: *** [Makefile:25: clean] Error 1[65X[65C
+[103X[103C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[m[68X[68C
+$ make[97X[97C
+sdcc -c  testcoop.c[84X[84C
+testcoop.c:53: warning 158: overflow in implicit constant conversion[35X[35C
+sdcc -c  cooperative.c[81X[81C
+cooperative.c:172: warning 85: in function ThreadCreate unreferenced function argument : 'fp'[10X[10C
+sdcc  -o testcoop.hex testcoop.rel cooperative.rel[53X[53C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C
+[103X[103C[16;1H[?25h]0;~/checkpoint 1
+[32mUSER@LAPTOP-6TT6RA2U [33m~/checkpoint 1[0m
+$ exit
+exit
+
+Script done on 2021-01-02 21:27:16+08:00 [COMMAND_EXIT_CODE="0"]
